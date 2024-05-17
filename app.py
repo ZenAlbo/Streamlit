@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
 import numpy as np
 
-model = tf.keras.models.load_model('C:\Document\cifar10_model.h5')
+model = load_model('C:\Document\cifar10_model.h5')
 
 class_names = ['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck']
 
